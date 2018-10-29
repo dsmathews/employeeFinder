@@ -1,0 +1,28 @@
+{
+  "name": "employeefinder",
+  "version": "1.0.0",
+  "description": "Employee Finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmathews/employeeFinder.git"
+  },
+  "keywords": [
+    "Employee",
+    "Finder",
+    "Survey"
+  ],
+  "author": "Scott Mathews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsmathews/employeeFinder/issues"
+  },
+  "homepage": "https://github.com/dsmathews/employeeFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
