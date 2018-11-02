@@ -6,15 +6,15 @@ $('document').ready(function (){
     };
     if ($('#name').val()) {
       valid = false;
-      alert();
+      alarm();
     }
     else if ($('#pic').val()) {
       valid = false;
-      alert();
+      alarm();
     }
     else if ($('.custom-select').val(NaN)) {
       valid = false;
-      alert();
+      alarm();
     }
     else {
       valid = true;
@@ -48,6 +48,7 @@ $('document').ready(function (){
       $("#submit").on('click', submit);
 
     }
-  };
 
+  };
+  formValidation();
 });
