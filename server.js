@@ -8,10 +8,10 @@ const PORT = 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'app/public')));
 
-require('./routes/apiRoutes.js')(app);
-require('./routes/htmlRoutes.js')(app);
+require('./app/routes/apiRoutes.js')(app);
+require('./app/routes/htmlRoutes.js')(app);
 
 app.listen(PORT, function(){
     console.log(`App is now listening on PORT ${PORT}`);

@@ -164,28 +164,30 @@
             <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="far fa-check-circle"
                     aria-hidden="true"></i>Submit</button>
         </div>
-        <div class="modal fade" id="results-modal" role="dialog">
+        <!-- footer -->
+        <hr>
+        <footer>
+            <div class="container">
+                <p><a href="/api/employees">API Employees List</a></p>
+            </div>
+        </footer>
+        <div id="results-modal" class="modal fade" role="dialog">
             <div class="modal-dialog">
-                <!-- Modal Content -->
+                <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-header"><h2><strong>Best Match</strong></h2>
-                        <button type="button" class="close float-right" data-dismiss="modal">&times;</button>
+                    <div class="modal-header">
+                        <h2 class="modal-title"><strong>Employee Pairing</strong></h2>
+                        <button class="close float-right" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
-                        <h2 id="match-name"></h2>
-                        <img id="match-img" src=(unknown) alt="match-picture" width="100%">
+                        <h2 id="pair-name"></h2>
+                        <img id="pair-img" src="" alt="" width='100%'>
                     </div>
-                    <!-- footer -->
-                    <footer>
-                    <div class="container">
-                        <p><a href="#">API Employees List</a></p>
+                    <div class="modal-footer">
+                        <button class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
-                    </footer>
-
-
-
-
                 </div>
+
             </div>
         </div>
 </body>
