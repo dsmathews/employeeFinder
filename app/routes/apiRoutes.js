@@ -9,6 +9,8 @@ module.exports = function (app) {
 
 		const newCast = req.body;
 
+		console.log(newCast);
+
 		let comparisonArr = [];
 		for (let i = 0; i < employees.length; i++) {
 			let referenced = employees[i];

@@ -154,7 +154,7 @@ const employees = [
 
 {
   "name":"Dumbledore",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"https://i.etsystatic.com/14342904/r/il/695236/1190373838/il_570xN.1190373838_k699.jpg",
   "scores":[
       3,
       3,

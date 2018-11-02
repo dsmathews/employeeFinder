@@ -20,36 +20,37 @@ $(function () {
   const displayWinner = function (data) {
     $('#pair-name').text(data.name);
     $('#pair-img').attr('src', data.photo);
-    $('#results-modal').modal('toggle');
+    $('#results-modal').modal('show');
   };
 
   const submit = function () {
     event.preventDefault();
     if (validate()) {
       const userData = {
-        name: $('#name').val.trim,
-        photo: $('#photo').val.trim,
+        name: $('#name').val().trim(),
+        photo: $('#photo').val().trim(),
         scores: [
-          $('#q1').val(),
-          $('#q2').val(),
-          $('#q3').val(),
-          $('#q4').val(),
-          $('#q5').val(),
-          $('#q6').val(),
-          $('#q7').val(),
-          $('#q8').val(),
-          $('#q9').val(),
-          $('#q10').val()
+          $('#1').val(),
+          $('#2').val(),
+          $('#3').val(),
+          $('#4').val(),
+          $('#5').val(),
+          $('#6').val(),
+          $('#7').val(),
+          $('#8').val(),
+          $('#9').val(),
+          $('#10').val()
         ]
       };
-      $.post('/api/employees', userData, displayWinner);
+      console.log(userData); 
+      $.post('/api/employees', userData)
+        .then(displayWinner);
     }
     else {
       $('#error')
         .text('Uh oh, please check your answers before submitting')
         .addClass('alert alert-warning');
     }
-};
-
-$("#submit").on('click',submit);
+  };
+  $("#submit").on('click', submit);
 });
