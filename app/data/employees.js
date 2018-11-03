@@ -1,7 +1,7 @@
 const employees = [
 {
   "name":"Harry",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536649-500-375.jpg",
   "scores":[
       5,
       5,
@@ -18,7 +18,7 @@ const employees = [
 
 {
   "name":"Hermione",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536640-500-375.jpg",
   "scores":[
       4,
       4,
@@ -35,7 +35,7 @@ const employees = [
 
 {
   "name":"Ron",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536648-500-375.jpg",
   "scores":[
       5,
       5,
@@ -52,7 +52,7 @@ const employees = [
 
 {
   "name":"Ginny",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://images4.fanpop.com/image/photos/23200000/DH-Part-II-ginny-weasley-23204408-500-375.jpg",
   "scores":[
       5,
       5,
@@ -68,8 +68,8 @@ const employees = [
 },
 
 {
-  "name":"Neville",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Hagrid",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536645-500-375.jpg",
   "scores":[
       5,
       1,
@@ -85,8 +85,8 @@ const employees = [
 },
 
 {
-  "name":"Crabbe",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Bellatrix",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536637-500-375.jpg",
   "scores":[
       5,
       1,
@@ -102,16 +102,16 @@ const employees = [
 },
 
 {
-  "name":"Goyle",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Voldemort",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536635-500-375.jpg",
   "scores":[
-      5,
       1,
-      4,
-      4,
-      5,
       1,
-      2,
+      1,
+      1,
+      1,
+      1,
+      1,
       1,
       1,
       1
@@ -120,24 +120,24 @@ const employees = [
 
 {
   "name":"Draco",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536639-500-375.jpg",
   "scores":[
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
     ]
 },
 
 {
   "name":"Snape",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://images6.fanpop.com/image/photos/37500000/HP-Hogwarts-Collection-harry-potter-37536636-500-375.jpg",
   "scores":[
       5,
       4,
@@ -148,13 +148,13 @@ const employees = [
       2,
       4,
       1,
-      1
+      5
     ]
 },
 
 {
   "name":"Dumbledore",
-  "photo":"https://i.etsystatic.com/14342904/r/il/695236/1190373838/il_570xN.1190373838_k699.jpg",
+  "photo":"http://images6.fanpop.com/image/photos/37000000/Albus-Dumbledore-harry-potter-37017026-500-375.jpg",
   "scores":[
       3,
       3,
